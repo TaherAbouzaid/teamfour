@@ -9,6 +9,7 @@ import { IndexComponent } from './components/index/index.component';
 import { ContentComponent } from './components/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
+import { GitComponatentComponent } from './components/git-componatent/git-componatent.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductsComponent } from './components/products/products.component';
     IndexComponent,
     ContentComponent,
     FooterComponent,
-    ProductsComponent
+    ProductsComponent,
+    GitComponatentComponent
   ],
   imports: [
     BrowserModule,
