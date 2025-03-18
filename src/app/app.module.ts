@@ -12,6 +12,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { GitComponatentComponent } from './components/git-componatent/git-componatent.component';
 import { AhmedMakramComponent } from './ahmed-makram/ahmed-makram.component';
 import { MoviesComponent } from './components/movies/movies.component';
+import { DetailsMoveComponent } from './details-move/details-move.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MoviesComponent } from './components/movies/movies.component';
     ProductsComponent,
     GitComponatentComponent,
     AhmedMakramComponent,
-    MoviesComponent
+    MoviesComponent,
+    DetailsMoveComponent
   ],
   imports: [
     BrowserModule,
