@@ -10,6 +10,7 @@ import { ContentComponent } from './components/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
 import { GitComponatentComponent } from './components/git-componatent/git-componatent.component';
+import { MoviesComponent } from './components/movies/movies.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GitComponatentComponent } from './components/git-componatent/git-compon
     ContentComponent,
     FooterComponent,
     ProductsComponent,
-    GitComponatentComponent
+    GitComponatentComponent,
+    MoviesComponent
   ],
   imports: [
     BrowserModule,
